@@ -1,5 +1,6 @@
-package io.github.hubao.hbcache;
+package io.github.hubao.hbcache.core;
 
+import io.github.hubao.hbcache.HBPlugin;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.Channel;
@@ -22,7 +23,7 @@ import org.springframework.stereotype.Component;
  * @see 2024/6/12 20:20
  */
 @Component
-public class HBCacheServer implements HBPlugin{
+public class HBCacheServer implements HBPlugin {
 
     int port = 8088;
 

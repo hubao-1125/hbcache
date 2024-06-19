@@ -1,4 +1,4 @@
-package io.github.hubao.hbcache;
+package io.github.hubao.hbcache.core;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
